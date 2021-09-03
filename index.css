@@ -1,0 +1,107 @@
+body{
+    font-family: Source Sans Pro,sans-serif;
+font-size: 25px;
+
+}
+
+
+.flex{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: stretch;
+}
+.flex > div{
+    flex:1;
+ 
+}
+.easybtn{
+    text-align:right;
+}
+.mediumbtn{
+    text-align: center;
+}
+.hardbtn{
+    text-align: left;
+}
+
+table{
+    margin:auto;
+    border:collapse;
+}
+
+
+.tableCont{
+    display:flex;
+    justify-content: center;
+  
+}
+.tableCont table{
+    table-layout: fixed;
+    border-collapse: collapse;
+   border:2px solid #344861;;
+  
+}
+.tableCont .cell{
+    width: 60px;
+    box-sizing: border-box;
+    height:60px;
+   border:none;
+   font-size:25px; 
+   text-align:center;
+   font-family: Source Sans Pro,sans-serif;
+}
+
+.tableCont td :hover{
+    background-color: #BBDEFB !important;
+}
+
+.tableCont td{
+    padding:0;
+    border:1px solid #bec6d4;
+
+}
+.tableCont tr{
+    padding:0;
+}
+.tableCont .thickbottom{
+    border-bottom:2px solid #344861;
+}
+.tableCont .thickright{
+    border-right:2px solid #344861;
+}
+.validationContainer{
+    display:flex;
+    justify-content: center;
+    padding:30px;
+}
+
+
+.redcell{
+    background-color: aliceblue;
+    color: red;
+    width: 60px;
+    box-sizing: border-box;
+    height:60px;
+   border:none;
+   font-size:25px; 
+   text-align:center;
+   font-family: Source Sans Pro,sans-serif;
+    
+}
+.blackcell
+{
+    background-color: aliceblue;
+    width: 60px;
+    box-sizing: border-box;
+    height:60px;
+   border:none;
+   font-size:25px; 
+   text-align:center;
+   font-family: Source Sans Pro,sans-serif; 
+}
+.h3
+{
+    color:dodgerblue;
+    font-family: Source Sans Pro,sans-serif; 
+}
